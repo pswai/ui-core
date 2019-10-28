@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Vanilla Datepicker</title>
+
+    <style>
+      .datepicker {
+        width: 210px;
+      }
+
+      .datepicker__header {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .dp-header__previous-month,
+      .dp-header__next-month {
+        width: 30px;
+        cursor: pointer;
+        text-align: center;
+      }
+
+      .dp-body__row {
+        display: flex;
+      }
+
+      .dp-body__cell {
+        width: 30px;
+        text-align: center;
+        cursor: pointer;
+      }
+
+      .dp-body__cell:hover {
+        background-color: lightgray;
+      }
+
+      .dp-body__cell--empty,
+      .dp-body__cell--empty:hover {
+        background-color: unset;
+        cursor: default;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="current-value">
+      <span class="current-value__label">Current Value: </span>
+      <span class="current-value__value">???</span>
+    </div>
+    <div class="datepicker">
+      <div class="datepicker__header">
+        <div class="dp-header__previous-month">&#x027E8;</div>
+        <div class="dp-header__title">October</div>
+        <div class="dp-header__next-month">&#x027e9;</div>
+      </div>
+      <div class="datepicker__body"></div>
+    </div>
+  </body>
+</html>
