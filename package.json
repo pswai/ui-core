@@ -11,7 +11,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "immer": "^4.0.2",
+    "immer": "^8.0.1",
     "luxon": "^1.19.3",
     "redux": "^4.0.4",
     "typescript": "^3.6.4"
